@@ -106,3 +106,15 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 	```
 9. Share the results with the study lead
 Send the file `Export/Results_<DatabaseId>.zip`in the output folder to the study coordinator [Yi Chai](mailto:chaiyi18@connect.hku.hk).
+
+## License
+
+The CERVELLOPrevalence package is licensed under Apache License 2.0
+
+## Development
+ 
+CERVELLOPrevalence was developed in ATLAS and R Studio.
+
+## Results
+
+Send the file `Export/Results_<DatabaseId>.zip` in the output folder to the study coordinator [Yi Chai](mailto:chaiyi18@connect.hku.hk).
