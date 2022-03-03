@@ -66,7 +66,7 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
                   server = 'myserver',
                   user = 'joe',
                   password = 'secret',
-                  pathToDriver = 'S:/jdbcDrivders')
+                  pathToDriver = 's:/jdbcDrivers')
 
 
         # The name of the database schema where the CDM data can be found:
