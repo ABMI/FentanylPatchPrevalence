@@ -96,3 +96,13 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
                 maxCores = maxCores,
                 minCellCount= 0)
 	```
+8. View your results in the Shiny App
+	```r
+        # Launch Shiny
+        shinyDataFolder <- file.path(getwd(), outputFolder, "Shiny")
+        .GlobalEnv$shinySettings <- list(dataFolder = shinyDataFolder)
+        shinyFolder <- file.path("inst", "shiny")
+        shiny::runApp(shinyFolder)
+	```
+9. Share the results with the study lead
+Send the file `Export/Results_<DatabaseId>.zip`in the output folder to the study coordinator [Yi Chai](mailto:chaiyi18@connect.hku.hk).
