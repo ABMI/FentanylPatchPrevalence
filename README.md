@@ -34,7 +34,7 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 
 ## How to run the study
 1. Follow [these instructions](https://ohdsi.github.io/Hades/rSetup.html) for setting up your R environment, including RTools and Java. 
-2. Launce 'CERVELLOPrevalence.Rproj' in the study package folder. 
+2. Launce `CERVELLOPrevalence.Rproj` in the study package folder. 
 3. Use the following code to initiate the project:
 
 	```r
