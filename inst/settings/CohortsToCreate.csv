@@ -1,0 +1,19 @@
+atlasId,atlasName,cohortId,name,cohortType
+1778278,[HKU cervello V2] Depressive Disorders,1778278,Depressive disorders,Disease
+1777957,[HKU cervello V2] Anxiety Disorders,1777957,Anxiety disorders,Disease
+1777958,[HKU cervello V2] Bipolar Disorders,1777958,Bipolar disorders,Disease
+1777959,[HKU cervello V2] Non-affective Psychoses,1777959,Non-affective psychoses,Disease
+1777967,[HKU cervello V2] Neurodevelopmental disorders,1777967,Neurodevelopmental disorders,Disease
+1777975,[HKU cervello V2] Personality Disorders,1777975,Personality disorders,Disease
+1777976,[HKU cervello V2] Alcohol misuse or dependence,1777976,Alcohol misuse or dependence,Disease
+1777977,[HKU cervello V2] Substance misuse or dependence,1777977,Substance misuse or dependence,Disease
+1777978,[HKU cervello V2] Dementia,1777978,Dementia,Disease
+1777979,[HKU cervello V2] ADHD,1777979,ADHD,Disease
+1775299,[HKU cervello V2] OC Antipsychotics,1775299,Antipsychotics,Drug
+1775358,[HKU cervello V2] OC Anxiolytics,1775358,Anxiolytics,Drug
+1775359,[HKU cervello V2] OC Hypnotics,1775359,Hypnotics,Drug
+1775360,[HKU cervello V2] OC Antidepressants,1775360,Antidepressants,Drug
+1775361,[HKU cervello V2] OC Antiepileptics,1775361,Antiepileptics,Drug
+1775362,[HKU cervello V2] OC Lithium,1775362,Lithium,Drug
+1775363,[HKU cervello V2] OC ADHD drugs,1775363,ADHD drugs,Drug
+1775364,[HKU cervello V2] OC Anti-dementia,1775364,Antidementia,Drug

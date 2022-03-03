@@ -1,0 +1,64 @@
+diseaseId,diseaseCohort,drugId,drugCohort
+1778278,Depressive disorders,1775360,Antidepressants
+1778278,Depressive disorders,1775361,Antiepileptics
+1778278,Depressive disorders,1775299,Antipsychotics
+1778278,Depressive disorders,1775358,Anxiolytics
+1778278,Depressive disorders,1775359,Hypnotics
+1778278,Depressive disorders,1775362,Lithium
+1777957,Anxiety disorders,1775360,Antidepressants
+1777957,Anxiety disorders,1775361,Antiepileptics
+1777957,Anxiety disorders,1775299,Antipsychotics
+1777957,Anxiety disorders,1775358,Anxiolytics
+1777957,Anxiety disorders,1775359,Hypnotics
+1777957,Anxiety disorders,1775362,Lithium
+1777958,Bipolar disorders,1775360,Antidepressants
+1777958,Bipolar disorders,1775361,Antiepileptics
+1777958,Bipolar disorders,1775299,Antipsychotics
+1777958,Bipolar disorders,1775358,Anxiolytics
+1777958,Bipolar disorders,1775359,Hypnotics
+1777958,Bipolar disorders,1775362,Lithium
+1777959,Non-affective psychoses,1775360,Antidepressants
+1777959,Non-affective psychoses,1775361,Antiepileptics
+1777959,Non-affective psychoses,1775299,Antipsychotics
+1777959,Non-affective psychoses,1775358,Anxiolytics
+1777959,Non-affective psychoses,1775359,Hypnotics
+1777959,Non-affective psychoses,1775362,Lithium
+1777975,Personality disorders,1775360,Antidepressants
+1777975,Personality disorders,1775361,Antiepileptics
+1777975,Personality disorders,1775299,Antipsychotics
+1777975,Personality disorders,1775358,Anxiolytics
+1777975,Personality disorders,1775359,Hypnotics
+1777975,Personality disorders,1775362,Lithium
+1777976,Alcohol misuse or dependence,1775360,Antidepressants
+1777976,Alcohol misuse or dependence,1775361,Antiepileptics
+1777976,Alcohol misuse or dependence,1775299,Antipsychotics
+1777976,Alcohol misuse or dependence,1775358,Anxiolytics
+1777976,Alcohol misuse or dependence,1775359,Hypnotics
+1777976,Alcohol misuse or dependence,1775362,Lithium
+1777977,Substance misuse or dependence,1775360,Antidepressants
+1777977,Substance misuse or dependence,1775361,Antiepileptics
+1777977,Substance misuse or dependence,1775299,Antipsychotics
+1777977,Substance misuse or dependence,1775358,Anxiolytics
+1777977,Substance misuse or dependence,1775359,Hypnotics
+1777977,Substance misuse or dependence,1775362,Lithium
+1777978,Dementia,1775364,Antidementia
+1777978,Dementia,1775360,Antidepressants
+1777978,Dementia,1775361,Antiepileptics
+1777978,Dementia,1775299,Antipsychotics
+1777978,Dementia,1775358,Anxiolytics
+1777978,Dementia,1775359,Hypnotics
+1777978,Dementia,1775362,Lithium
+1777979,ADHD,1775363,ADHD drugs
+1777979,ADHD,1775360,Antidepressants
+1777979,ADHD,1775361,Antiepileptics
+1777979,ADHD,1775299,Antipsychotics
+1777979,ADHD,1775358,Anxiolytics
+1777979,ADHD,1775359,Hypnotics
+1777979,ADHD,1775362,Lithium
+1777967,Neurodevelopmental disorders,1775363,ADHD drugs
+1777967,Neurodevelopmental disorders,1775360,Antidepressants
+1777967,Neurodevelopmental disorders,1775361,Antiepileptics
+1777967,Neurodevelopmental disorders,1775299,Antipsychotics
+1777967,Neurodevelopmental disorders,1775358,Anxiolytics
+1777967,Neurodevelopmental disorders,1775359,Hypnotics
+1777967,Neurodevelopmental disorders,1775362,Lithium
