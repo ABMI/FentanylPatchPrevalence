@@ -51,37 +51,36 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 	```r
 	library(CERVELLOPrevalence)
 
-# Maximum number of cores to be used:
-maxCores <- parallel::detectCores()
+        # Maximum number of cores to be used:
+        maxCores <- parallel::detectCores()
 
-# The folder where the study intermediate and result files will be written:
-outputFolder <- file.path("CervelloResults")
+        # The folder where the study intermediate and result files will be written:
+        outputFolder <- file.path("CervelloResults")
 
-# Details for connecting to the server:
-dbName <- 'MydbName'
+        # Details for connecting to the server:
+        dbName <- 'MydbName'
 
-connectionDetails <- DatabaseConnector::createConnectionDetails(
-  dbms = 'postgresql',
-  server = 'myserver',
-  user = 'joe',
-  password = 'secret',
-  pathToDriver = 'S:/jdbcDrivders'
-)
-
-
-# The name of the database schema where the CDM data can be found:
-cdmDatabaseSchema<-'CDM_mydb.dbo'
-
-# The name of the database schema and table where the study-specific cohorts will be instantiated:
-cohortDatabaseSchema <- 'mydb.dbo'
-cohortTable <- "Cevelloprevalence"
-
-# Some meta-information that will be used by the export function:
-databaseName <- 'MYDATABASE'
+        connectionDetails <- DatabaseConnector::createConnectionDetails(
+        dbms = 'postgresql',
+        server = 'myserver',
+        user = 'joe',
+        password = 'secret',
+        pathToDriver = 'S:/jdbcDrivders')
 
 
+        # The name of the database schema where the CDM data can be found:
+        cdmDatabaseSchema<-'CDM_mydb.dbo'
 
-execute(connectionDetails = connectionDetails,
+        # The name of the database schema and table where the study-specific cohorts will be instantiated:
+        cohortDatabaseSchema <- 'mydb.dbo'
+        cohortTable <- "Cevelloprevalence"
+
+        # Some meta-information that will be used by the export function:
+        databaseName <- 'MYDATABASE'
+
+
+
+        execute(connectionDetails = connectionDetails,
         cdmDatabaseSchema = cdmDatabaseSchema,
         cohortDatabaseSchema = cohortDatabaseSchema,
         cohortTable = cohortTable,
