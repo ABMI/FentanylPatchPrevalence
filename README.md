@@ -24,3 +24,10 @@ Before and during the pandemic, are threr any changes in
 
 ### Primary analysis: 
 To examine temporal trends of the prevalence of mental health and neurodevelopmental disorder diagnosis and the prevalence of eight types of psychotropic drug use before and during the pandemic. To examine the prevalence of psychotropic drug use in people with mental health issues and with neurodevelopmental disorders by condition. The prevalence will be stratified by year, month, sex and age groups. 
+
+## Requirements
+- A database in [Common Data Model version 5](https://github.com/OHDSI/CommonDataModel) in one of these platforms: SQL Server, Oracle, PostgreSQL, IBM Netezza, Apache Impala, Amazon RedShift, or Microsoft APS.
+- R version 3.6.0 or newer
+- On Windows: [RTools](http://cran.r-project.org/bin/windows/Rtools/)
+- [Java](http://java.com)
+- Suggested: 25 GB of free disk space
