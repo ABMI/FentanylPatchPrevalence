@@ -4,29 +4,29 @@ library(CERVELLOPrevalence)
 maxCores <- parallel::detectCores()
 
 # The folder where the study intermediate and result files will be written:
-outputFolder <- file.path("")
+outputFolder <- file.path("CervelloResults")
 
 # Details for connecting to the server:
-dbName <- ''
+dbName <- 'MydbName'
 
 connectionDetails <- DatabaseConnector::createConnectionDetails(
-  dbms = "",
-  server = '',
-  user = '',
-  password = '',
-  pathToDriver = ''
+  dbms = 'postgresql',
+  server = 'myserver',
+  user = 'joe',
+  password = 'secret',
+  pathToDriver = 'S:/jdbcDrivders'
 )
 
 
 # The name of the database schema where the CDM data can be found:
-cdmDatabaseSchema<-''
+cdmDatabaseSchema<-'CDM_mydb.dbo'
 
 # The name of the database schema and table where the study-specific cohorts will be instantiated:
-cohortDatabaseSchema <- ''
-cohortTable <- "Cevello"
+cohortDatabaseSchema <- 'mydb.dbo'
+cohortTable <- "Cevelloprevalence"
 
 # Some meta-information that will be used by the export function:
-databaseName <- ''
+databaseName <- 'MYDATABASE'
 
 
 
