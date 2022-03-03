@@ -31,3 +31,6 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 - On Windows: [RTools](http://cran.r-project.org/bin/windows/Rtools/)
 - [Java](http://java.com)
 - Suggested: 25 GB of free disk space
+
+## How to run
+1. Follow [these instructions](https://ohdsi.github.io/Hades/rSetup.html) for setting up your R environment, including RTools and Java. 
