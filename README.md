@@ -46,7 +46,8 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 	renv::restore()
 	```
 5. In RStudio, build the pakcage by clicking "Install and Restart" under 'Build' tab. If there is no error message, the package is built successfully.
-6. Once installed, the study can be executed by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`.
+6. Follow [Download DatabaseConnector JDBC](https://ohdsi.github.io/DatabaseConnector/reference/downloadJdbcDrivers.html) to download the DatabaseConnector JDBC drivers if you have not down this before. 
+7. Once installed, open `extras/CodeToRun.R` or use the code below and update the parameters before executing the package on a specific data source. For more information on how to set these parameters, please refer to [DatabaseConnector](http://ohdsi.github.io/DatabaseConnector/) and  `extras/Main.R`
 
 	```r
 	library(CERVELLOPrevalence)
