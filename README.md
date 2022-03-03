@@ -13,14 +13,14 @@ CERVELLOPrevalence
 - Study end date: **4th March 2022**
 - Protocol: **[Word Doc]**
 
-### Research Questions and Objectives:
+## Research Questions and Objectives:
 
-#### Research Questions:
+### Research Questions:
 Before and during the pandemic, are threr any changes in
 1.	Incidence rates of mental health conditions and of neurodevelopmental disorders 
 2.	Proportions of people with visits/contacts for particular mental health conditions and neurodevelopmental disorders
 3.	Proportions of people having a psychotropic drug prescribed
 4.	Proportions of people having a psychotropic drug prescribed in people with mental health conditions and with neurodevelopmental disorders
 
-#### Primary analysis: 
+### Primary analysis: 
 To examine temporal trends of the prevalence of mental health and neurodevelopmental disorder diagnosis and the prevalence of eight types of psychotropic drug use before and during the pandemic. To examine the prevalence of psychotropic drug use in people with mental health issues and with neurodevelopmental disorders by condition. The prevalence will be stratified by year, month, sex and age groups. 
