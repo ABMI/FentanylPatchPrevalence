@@ -61,11 +61,11 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
         dbName <- 'MydbName'
 
         connectionDetails <- DatabaseConnector::createConnectionDetails(
-        dbms = 'postgresql',
-        server = 'myserver',
-        user = 'joe',
-        password = 'secret',
-        pathToDriver = 'S:/jdbcDrivders')
+	          dbms = 'postgresql',
+                  server = 'myserver',
+                  user = 'joe',
+                  password = 'secret',
+                  pathToDriver = 'S:/jdbcDrivders')
 
 
         # The name of the database schema where the CDM data can be found:
@@ -81,17 +81,17 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 
 
         execute(connectionDetails = connectionDetails,
-        cdmDatabaseSchema = cdmDatabaseSchema,
-        cohortDatabaseSchema = cohortDatabaseSchema,
-        cohortTable = cohortTable,
-        outputFolder = outputFolder,
-        databaseName = databaseName,
-        createCohorts = TRUE,
-        runPrevalence = TRUE,
-        yearStartDate = "2016-01-01",
-        yearEndDate = "2021-07-01",
-        monthStartDate = "2016-01-01",
-        monthEndDate = "2021-07-01",
-        maxCores = maxCores,
-        minCellCount= 0)
+                cdmDatabaseSchema = cdmDatabaseSchema,
+                cohortDatabaseSchema = cohortDatabaseSchema,
+                cohortTable = cohortTable,
+                outputFolder = outputFolder,
+                databaseName = databaseName,
+                createCohorts = TRUE,
+                runPrevalence = TRUE,
+                yearStartDate = "2016-01-01",
+                yearEndDate = "2021-07-01",
+                monthStartDate = "2016-01-01",
+                monthEndDate = "2021-07-01",
+                maxCores = maxCores,
+                minCellCount= 0)
 	```
