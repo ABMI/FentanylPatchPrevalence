@@ -10,7 +10,7 @@ CERVELLOPrevalence
 - Study lead forums tag:  **[HaoLuo](https://github.com/haoluo429)**, **[YiChai](https://github.com/YiChai18)**
 - Study start date: **1st March, 2022**
 - Study end date: **31 March 2022**
-- Protocol: **[Word Doc]**
+- Protocol: **[Word Doc](https://github.com/YiChai18/CERVELLOPrevalence/tree/main/Protocol)**
 
 ## Research Questions and Objectives:
 
