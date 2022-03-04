@@ -8,8 +8,8 @@ CERVELLOPrevalence
 - Study lead: **Hao Luo, PhD, The University of Hong Kong** // 
               **Yi Chai, MSc, The University of Hong Kong** 
 - Study lead forums tag:  **[HaoLuo](https://github.com/haoluo429)**, **[YiChai](https://github.com/YiChai18)**
-- Study start date: **21st January, 2021**
-- Study end date: **4th March 2022**
+- Study start date: **1st March, 2022**
+- Study end date: **31 March 2022**
 - Protocol: **[Word Doc]**
 
 ## Research Questions and Objectives:
