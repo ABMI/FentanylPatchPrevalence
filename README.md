@@ -15,7 +15,7 @@ CERVELLOPrevalence
 ## Research Questions and Objectives:
 
 ### Research Questions:
-Before and during the pandemic, are threr any changes in
+Before and during the pandemic, are there any changes in
 1.	Incidence rates of mental health conditions and of neurodevelopmental disorders 
 2.	Proportions of people with visits/contacts for particular mental health conditions and neurodevelopmental disorders
 3.	Proportions of people having a psychotropic drug prescribed
