@@ -32,7 +32,7 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 - Suggested: 25 GB of free disk space
 
 ## How to run the study
-1. Follow [these instructions](https://ohdsi.github.io/Hades/rSetup.html) for setting up your R environment, including RTools and Java. 
+1. Follow [these instructions](https://ohdsi.github.io/Hades/rSetup.html) for setting up the R environment for HADES, including RTools and Java. 
 2. Launce `CERVELLOPrevalence.Rproj` in the study package folder. 
 3. Use the following code to initiate the project:
 
