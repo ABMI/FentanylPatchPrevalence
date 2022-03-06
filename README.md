@@ -39,7 +39,7 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 	```r
 	renv::init()
 	```
-4. Use the following code to to install all the dependencies:
+4. Use the following code to install all the dependencies:
  
 	```r
 	renv::restore()
