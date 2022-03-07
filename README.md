@@ -8,22 +8,13 @@ CERVELLOPrevalence
 - Study lead: **Hao Luo, PhD, The University of Hong Kong** // 
               **Yi Chai, MSc, The University of Hong Kong** 
 - Study lead forums tag:  **[HaoLuo](https://github.com/haoluo429)**, **[YiChai](https://github.com/YiChai18)**
-- Study start date: **1st March, 2021**
+- Study start date: **1st September, 2021**
 - Study end date: **-**
 - Protocol: **[Word Doc](https://github.com/YiChai18/CERVELLOPrevalence/tree/main/Protocol)**
 - Results explorer: **-**
 
-## Research Questions and Objectives:
 
-### Research Questions:
-Before and during the pandemic, are there any changes in
-1.	Incidence rates of mental health conditions and of neurodevelopmental disorders 
-2.	Proportions of people with visits/contacts for particular mental health conditions and neurodevelopmental disorders
-3.	Proportions of people having a psychotropic drug prescribed
-4.	Proportions of people having a psychotropic drug prescribed in people with mental health conditions and with neurodevelopmental disorders
-
-### Primary analysis: 
-To examine temporal trends of the prevalence of mental health and neurodevelopmental disorder diagnosis and the prevalence of eight types of psychotropic drug use before and during the pandemic. To examine the prevalence of psychotropic drug use in people with mental health issues and with neurodevelopmental disorders by condition. The prevalence will be stratified by year, month, sex and age groups. 
+The mental health effects of COVID-19 may vary across populations. To ensure limited mental health resources are efficiently targeted to crucial areas of mental health problems, high-quality data on the short-, medium- and long-term mental health effects of the COVID-19 pandemic across the whole-population and vulnerable groups are needed. In this project, we aim to examine temporal trends of the incidence and prevalence of mental health and neurodevelopmental disorder diagnosis before and during the pandemic; the prevalence of eight types of psychotropic drug prescribing before and during the pandemic; and the prevalence of psychotropic drug prescribing in people with mental health issues and with neurodevelopmental disorders by condition. The incidence and prevalence will be stratified by year, month, sex, and age groups. 
 
 ## Requirements
 - A database in [Common Data Model version 5](https://github.com/OHDSI/CommonDataModel) in one of these platforms: SQL Server, Oracle, PostgreSQL, IBM Netezza, Apache Impala, Amazon RedShift, or Microsoft APS.
@@ -33,7 +24,7 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 - Suggested: 25 GB of free disk space
 
 ## How to run the study
-1. Follow [these instructions](https://ohdsi.github.io/Hades/rSetup.html) for setting up the R environment for [HADES](https://ohdsi.github.io/Hades/index.html), including RTools and Java. 
+1. Follow [these instructions](https://ohdsi.github.io/Hades/index.html) on how to set up the R environment on Windows.
 2. Launce `CERVELLOPrevalence.Rproj` in the study package folder. 
 3. Use the following code to initiate the project:
 
@@ -46,7 +37,7 @@ To examine temporal trends of the prevalence of mental health and neurodevelopme
 	renv::restore()
 	```
 5. In RStudio, build the pakcage by clicking "Install and Restart" under 'Build' tab. If there is no error message, the package is built successfully.
-6. Follow [Download DatabaseConnector JDBC](https://ohdsi.github.io/DatabaseConnector/reference/downloadJdbcDrivers.html) to download the DatabaseConnector JDBC drivers if you have not down this before. 
+6. Download DatabaseConnector JDBC driver according to your own platform [here](https://ohdsi.github.io/DatabaseConnectorJars/) if you have not done so. 
 7. Once installed, open `extras/CodeToRun.R` or use the code below and update the parameters before executing the package on a specific data source. For more information on how to set these parameters, please refer to [DatabaseConnector](http://ohdsi.github.io/DatabaseConnector/) and  `extras/Main.R`
 
 	```r
