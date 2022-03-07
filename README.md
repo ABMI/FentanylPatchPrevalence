@@ -25,7 +25,7 @@ The mental health effects of COVID-19 may vary across populations. To ensure lim
 
 ## How to run the study
 1. Follow [these instructions](https://ohdsi.github.io/Hades/index.html) on how to set up the R environment on Windows.
-2. Launce `CERVELLOPrevalence.Rproj` in the study package folder. 
+2. Launch `CERVELLOPrevalence.Rproj` in the study package folder. 
 3. Use the following code to initiate the project:
 
 	```r
