@@ -4,13 +4,14 @@ CERVELLOPrevalence
 
 - Analytics use case(s): **Characterization**
 - Study type: **Clinical Application**
-- Tags: **OHDSI, psychiatryWG, mental-health, covid-19**
+- Tags: **OHDSI, psychiatryWG, mental-health, COVID-19**
 - Study lead: **Hao Luo, PhD, The University of Hong Kong** // 
               **Yi Chai, MSc, The University of Hong Kong** 
 - Study lead forums tag:  **[HaoLuo](https://github.com/haoluo429)**, **[YiChai](https://github.com/YiChai18)**
-- Study start date: **1st March, 2022**
-- Study end date: **31st March 2022**
+- Study start date: **1st March, 2021**
+- Study end date: **-**
 - Protocol: **[Word Doc](https://github.com/YiChai18/CERVELLOPrevalence/tree/main/Protocol)**
+- Results explorer: **-**
 
 ## Research Questions and Objectives:
 
