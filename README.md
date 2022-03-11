@@ -92,8 +92,7 @@ The mental health effects of COVID-19 may vary across populations. To ensure lim
         shinyFolder <- file.path("inst", "shiny")
         shiny::runApp(shinyFolder)
 	```
-9. Share the results with the study lead
-Use the following code to compress your results:
+9. Share the results with the study lead  Use the following code to compress your results:
  
 	```r
 	DatabaseConnector::createZipFile(zipFile ="Results_<DatabaseId>.zip",files = outputFolder)
