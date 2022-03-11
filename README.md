@@ -93,7 +93,12 @@ The mental health effects of COVID-19 may vary across populations. To ensure lim
         shiny::runApp(shinyFolder)
 	```
 9. Share the results with the study lead
-Send the file `Export/Results_<DatabaseId>.zip`in the output folder to the study coordinator [Yi Chai](mailto:chaiyi18@connect.hku.hk).
+Use the following code to compress your results:
+ 
+	```r
+	DatabaseConnector::createZipFile(zipFile ="Results_<DatabaseId>.zip",files = outputFolder)
+	```
+Send the file `Export/Results_<DatabaseId>.zip`in your folder to the study coordinator [Yi Chai](mailto:chaiyi18@connect.hku.hk).
 
 ## License
 
