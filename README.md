@@ -38,7 +38,7 @@ The mental health effects of COVID-19 may vary across populations. To ensure lim
 	```
 5. In RStudio, build the pakcage by clicking "Install and Restart" under the 'Build' tab. If there is no error message, the package is built successfully.
 6. Download DatabaseConnector JDBC driver according to your own platform [here](https://ohdsi.github.io/DatabaseConnectorJars/) if you have not done so. 
-7. Once installed, open `extras/CodeToRun.R` or use the code below to run the package on your database. Please customise the parameters before executing the package. For more information on how to set these parameters, please refer to [DatabaseConnector](http://ohdsi.github.io/DatabaseConnector/) and  `extras/Main.R`
+7. Once installed, open `extras/CodeToRun.R` or use the code below to run the package on your database. Please customise the parameters before executing the package. For more information on how to set these parameters, please refer to [DatabaseConnector](http://ohdsi.github.io/DatabaseConnector/) and  `R/Main.R`
 
 	```r
 	library(CERVELLOPrevalence)
