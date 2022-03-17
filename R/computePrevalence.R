@@ -61,7 +61,7 @@ computePrevalence <- function(yearStartDate,
   }
   rm(whole_yr_y, whole_mth_m)
 
-  # Calculate the total number of people observed in the whole database and the total follow-up time
+  # Calculate the total number of people observed in the whole database and the total follow-up time in year
     DatasetCounts <-data_whole %>%
     dplyr::summarise(total_counts = dplyr::n_distinct(SUBJECT_ID),
                      total_followup_yr = sum(round(as.numeric(COHORT_END_DATE - COHORT_START_DATE)/365.25, 0)))
