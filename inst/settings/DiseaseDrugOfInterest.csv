@@ -17,12 +17,12 @@ diseaseId,diseaseCohort,drugId,drugCohort
 1777958,Bipolar disorders,1775358,Anxiolytics
 1777958,Bipolar disorders,1775359,Hypnotics
 1777958,Bipolar disorders,1775362,Lithium
-1777959,Non-affective psychoses,1775360,Antidepressants
-1777959,Non-affective psychoses,1775361,Antiepileptics
-1777959,Non-affective psychoses,1775299,Antipsychotics
-1777959,Non-affective psychoses,1775358,Anxiolytics
-1777959,Non-affective psychoses,1775359,Hypnotics
-1777959,Non-affective psychoses,1775362,Lithium
+1777959,Psychoses,1775360,Antidepressants
+1777959,Psychoses,1775361,Antiepileptics
+1777959,Psychoses,1775299,Antipsychotics
+1777959,Psychoses,1775358,Anxiolytics
+1777959,Psychoses,1775359,Hypnotics
+1777959,Psychoses,1775362,Lithium
 1777975,Personality disorders,1775360,Antidepressants
 1777975,Personality disorders,1775361,Antiepileptics
 1777975,Personality disorders,1775299,Antipsychotics
@@ -48,13 +48,13 @@ diseaseId,diseaseCohort,drugId,drugCohort
 1777978,Dementia,1775358,Anxiolytics
 1777978,Dementia,1775359,Hypnotics
 1777978,Dementia,1775362,Lithium
-1777979,ADHD,1775363,ADHD drugs
-1777979,ADHD,1775360,Antidepressants
-1777979,ADHD,1775361,Antiepileptics
-1777979,ADHD,1775299,Antipsychotics
-1777979,ADHD,1775358,Anxiolytics
-1777979,ADHD,1775359,Hypnotics
-1777979,ADHD,1775362,Lithium
+1779791,ADHD,1775363,ADHD drugs
+1779791,ADHD,1775360,Antidepressants
+1779791,ADHD,1775361,Antiepileptics
+1779791,ADHD,1775299,Antipsychotics
+1779791,ADHD,1775358,Anxiolytics
+1779791,ADHD,1775359,Hypnotics
+1779791,ADHD,1775362,Lithium
 1777967,Neurodevelopmental disorders,1775363,ADHD drugs
 1777967,Neurodevelopmental disorders,1775360,Antidepressants
 1777967,Neurodevelopmental disorders,1775361,Antiepileptics
