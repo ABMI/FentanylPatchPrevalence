@@ -1,0 +1,242 @@
+{
+  "ConceptSets": [
+    {
+      "id": 0,
+      "name": "[cervello] Depressive disorders",
+      "expression": {
+        "items": [
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "35489007",
+              "CONCEPT_ID": 440383,
+              "CONCEPT_NAME": "Depressive disorder",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Qualifier Value",
+              "CONCEPT_CODE": "255339005",
+              "CONCEPT_ID": 4114513,
+              "CONCEPT_NAME": "Depression - motion",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "CPT4",
+              "CONCEPT_CODE": "3089F",
+              "CONCEPT_ID": 2106305,
+              "CONCEPT_NAME": "Major depressive disorder, moderate (MDD)",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "CPT4"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "CPT4",
+              "CONCEPT_CODE": "3088F",
+              "CONCEPT_ID": 2106304,
+              "CONCEPT_NAME": "Major depressive disorder, mild (MDD)",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "CPT4"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Procedure",
+              "CONCEPT_CODE": "768835002",
+              "CONCEPT_ID": 35625750,
+              "CONCEPT_NAME": "Depression care management",
+              "DOMAIN_ID": "Procedure",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Procedure",
+              "CONCEPT_CODE": "401174001",
+              "CONCEPT_ID": 4295031,
+              "CONCEPT_NAME": "Depression management program",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Procedure",
+              "CONCEPT_CODE": "166291000000108",
+              "CONCEPT_ID": 44788280,
+              "CONCEPT_NAME": "Depression - enhanced services administration",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "166481000000107",
+              "CONCEPT_ID": 44788300,
+              "CONCEPT_NAME": "Depression - enhanced service completed",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "CPT4",
+              "CONCEPT_CODE": "0545F",
+              "CONCEPT_ID": 40756910,
+              "CONCEPT_NAME": "Plan for follow-up care for major depressive disorder, documented (MDD ADOL)",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "CPT4"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "CPT4",
+              "CONCEPT_CODE": "3091F",
+              "CONCEPT_ID": 2106322,
+              "CONCEPT_NAME": "Major depressive disorder, severe with psychotic features (MDD)",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "CPT4"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "CPT4",
+              "CONCEPT_CODE": "3090F",
+              "CONCEPT_ID": 2106310,
+              "CONCEPT_NAME": "Major depressive disorder, severe without psychotic features (MDD)",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "CPT4"
+            },
+            "includeDescendants": true
+          }
+        ]
+      }
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {
+        "ConditionOccurrence": {
+          "CodesetId": 0,
+          "OccurrenceStartDate": {
+            "Value": "2016-01-01",
+            "Extent": "2021-12-31",
+            "Op": "gte"
+          }
+        }
+      },
+      {
+        "Observation": {
+          "CodesetId": 0,
+          "OccurrenceStartDate": {
+            "Value": "2016-01-01",
+            "Extent": "2021-12-31",
+            "Op": "gte"
+          }
+        }
+      },
+      {
+        "ProcedureOccurrence": {
+          "CodesetId": 0,
+          "OccurrenceStartDate": {
+            "Value": "2016-01-01",
+            "Extent": "2021-12-31",
+            "Op": "gte"
+          }
+        }
+      }
+    ],
+    "ObservationWindow": {
+      "PriorDays": 365,
+      "PostDays": 0
+    },
+    "PrimaryCriteriaLimit": {
+      "Type": "All"
+    }
+  },
+  "QualifiedLimit": {
+    "Type": "First"
+  },
+  "ExpressionLimit": {
+    "Type": "All"
+  },
+  "InclusionRules": [],
+  "EndStrategy": {
+    "DateOffset": {
+      "DateField": "StartDate",
+      "Offset": 1
+    }
+  },
+  "CensoringCriteria": [
+    {
+      "Death": {}
+    }
+  ],
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "cdmVersionRange": ">=5.0.0"
+}
