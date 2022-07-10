@@ -4,13 +4,13 @@ CREATE TEMP TABLE Codesets  (codeset_id int NOT NULL,
 ;
 
 INSERT INTO Codesets (codeset_id, concept_id)
-SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 1 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (442077,4058397,4322025,440985,4087190,4008683,4263429,4338032,4332995,4261239,4209114,4155074,4103273,42538970,4102977,4012101,4112929,4114006,4214746)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (442077,4058397,4322025,440985,4087190,4008683,4263429,4338032,4332995,4261239,4209114,4155074,4103273,4102977,4012101,4112929,4114006,4214746,42538968)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (442077,4058397,4322025,440985,4087190,4008683,4263429,4338032,4332995,4261239,4209114,4155074,4103273,42538970,4102977,4012101,4112929,4114006,4214746)
+  and ca.ancestor_concept_id in (442077,4058397,4322025,440985,4087190,4008683,4263429,4338032,4332995,4261239,4209114,4155074,4103273,4102977,4012101,4112929,4114006,4214746,42538968)
   and c.invalid_reason is null
 
 ) I
@@ -37,7 +37,7 @@ FROM
 (
   SELECT co.* 
   FROM @cdm_database_schema.CONDITION_OCCURRENCE co
-  JOIN Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 0)
+  JOIN Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 1)
 ) C
 
 WHERE C.condition_start_date >= TO_DATE(TO_CHAR(2016,'0000')||'-'||TO_CHAR(1,'00')||'-'||TO_CHAR(1,'00'), 'YYYY-MM-DD')
@@ -51,7 +51,7 @@ from
 (
   select o.* 
   FROM @cdm_database_schema.OBSERVATION o
-JOIN Codesets cs on (o.observation_concept_id = cs.concept_id and cs.codeset_id = 0)
+JOIN Codesets cs on (o.observation_concept_id = cs.concept_id and cs.codeset_id = 1)
 ) C
 
 WHERE C.observation_date >= TO_DATE(TO_CHAR(2016,'0000')||'-'||TO_CHAR(1,'00')||'-'||TO_CHAR(1,'00'), 'YYYY-MM-DD')

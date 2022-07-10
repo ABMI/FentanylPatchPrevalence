@@ -6,11 +6,11 @@ CREATE TEMP TABLE Codesets  (codeset_id int NOT NULL,
 INSERT INTO Codesets (codeset_id, concept_id)
 SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (440383,4114513,2106305,2106304,35625750,4295031,44788280,44788300,40756910,2106322,2106310)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (440383,4114513,2106305,2106304,4295031,2106322,2106310,35625752,40756912,44788282,44788304)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (440383,4114513,2106305,2106304,35625750,4295031,44788280,44788300,40756910,2106322,2106310)
+  and ca.ancestor_concept_id in (440383,4114513,2106305,2106304,4295031,2106322,2106310,35625752,40756912,44788282,44788304)
   and c.invalid_reason is null
 
 ) I

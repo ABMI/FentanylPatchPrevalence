@@ -4,13 +4,13 @@ CREATE TEMP TABLE Codesets  (codeset_id int NOT NULL,
 ;
 
 INSERT INTO Codesets (codeset_id, concept_id)
-SELECT 0 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 1 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
-  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (4182210,35610620,46284880,46284880,44790940,4043378,42742410,4059191,44782760,44804340)
+  select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (4043378,46284877,35610623,44803781,44803843,44803706,44782763,44803643,44790944,46284876,44803915,42742407,4059191,4182210)
 UNION  select c.concept_id
   from @vocabulary_database_schema.CONCEPT c
   join @vocabulary_database_schema.CONCEPT_ANCESTOR ca on c.concept_id = ca.descendant_concept_id
-  and ca.ancestor_concept_id in (4182210,35610620,46284880,46284880,44790940,4043378,42742410,4059191,44782760,44804340)
+  and ca.ancestor_concept_id in (4043378,46284877,35610623,44803781,44803843,44803706,44782763,44803643,44790944,46284876,44803915,42742407,4059191,4182210)
   and c.invalid_reason is null
 
 ) I
@@ -37,7 +37,7 @@ FROM
 (
   SELECT co.* 
   FROM @cdm_database_schema.CONDITION_OCCURRENCE co
-  JOIN Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 0)
+  JOIN Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 1)
 ) C
 
 WHERE C.condition_start_date >= TO_DATE(TO_CHAR(2016,'0000')||'-'||TO_CHAR(1,'00')||'-'||TO_CHAR(1,'00'), 'YYYY-MM-DD')
@@ -51,7 +51,7 @@ from
 (
   select o.* 
   FROM @cdm_database_schema.OBSERVATION o
-JOIN Codesets cs on (o.observation_concept_id = cs.concept_id and cs.codeset_id = 0)
+JOIN Codesets cs on (o.observation_concept_id = cs.concept_id and cs.codeset_id = 1)
 ) C
 
 WHERE C.observation_date >= TO_DATE(TO_CHAR(2016,'0000')||'-'||TO_CHAR(1,'00')||'-'||TO_CHAR(1,'00'), 'YYYY-MM-DD')
