@@ -1,30 +1,15 @@
 {
   "ConceptSets": [
     {
-      "id": 0,
-      "name": "[cervello] Neurodevelopmental disorder",
+      "id": 1,
+      "name": "[cervello V2] Neurodevelopmental disorders",
       "expression": {
         "items": [
           {
             "concept": {
               "CONCEPT_CLASS_ID": "Clinical Finding",
-              "CONCEPT_CODE": "700364009",
-              "CONCEPT_ID": 45771100,
-              "CONCEPT_NAME": "Neurodevelopmental disorder",
-              "DOMAIN_ID": "Condition",
-              "INVALID_REASON": "V",
-              "INVALID_REASON_CAPTION": "Valid",
-              "STANDARD_CONCEPT": "S",
-              "STANDARD_CONCEPT_CAPTION": "Standard",
-              "VOCABULARY_ID": "SNOMED"
-            },
-            "includeDescendants": true
-          },
-          {
-            "concept": {
-              "CONCEPT_CLASS_ID": "Clinical Finding",
               "CONCEPT_CODE": "444613000",
-              "CONCEPT_ID": 40480230,
+              "CONCEPT_ID": 40480225,
               "CONCEPT_NAME": "Adult attention deficit hyperactivity disorder",
               "DOMAIN_ID": "Condition",
               "INVALID_REASON": "V",
@@ -69,7 +54,7 @@
             "concept": {
               "CONCEPT_CLASS_ID": "Context-dependent",
               "CONCEPT_CODE": "442414004",
-              "CONCEPT_ID": 40483180,
+              "CONCEPT_ID": 40483181,
               "CONCEPT_NAME": "History of neurodevelopmental disorder",
               "DOMAIN_ID": "Observation",
               "INVALID_REASON": "V",
@@ -124,6 +109,21 @@
               "VOCABULARY_ID": "SNOMED"
             },
             "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "700364009",
+              "CONCEPT_ID": 45771096,
+              "CONCEPT_NAME": "Neurodevelopmental disorder",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
           }
         ]
       }
@@ -133,7 +133,7 @@
     "CriteriaList": [
       {
         "ConditionOccurrence": {
-          "CodesetId": 0,
+          "CodesetId": 1,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",
@@ -143,7 +143,7 @@
       },
       {
         "Observation": {
-          "CodesetId": 0,
+          "CodesetId": 1,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",
@@ -153,7 +153,7 @@
       },
       {
         "ProcedureOccurrence": {
-          "CodesetId": 0,
+          "CodesetId": 1,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",

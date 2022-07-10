@@ -1,8 +1,8 @@
 {
   "ConceptSets": [
     {
-      "id": 0,
-      "name": "[cervello] Anxiety disorders",
+      "id": 1,
+      "name": "[cervello V2] Anxiety disorders",
       "expression": {
         "items": [
           {
@@ -203,21 +203,6 @@
           {
             "concept": {
               "CONCEPT_CLASS_ID": "Clinical Finding",
-              "CONCEPT_CODE": "94641000119109",
-              "CONCEPT_ID": 42538970,
-              "CONCEPT_NAME": "Anxiety in pregnancy",
-              "DOMAIN_ID": "Condition",
-              "INVALID_REASON": "V",
-              "INVALID_REASON_CAPTION": "Valid",
-              "STANDARD_CONCEPT": "S",
-              "STANDARD_CONCEPT_CAPTION": "Standard",
-              "VOCABULARY_ID": "SNOMED"
-            },
-            "includeDescendants": true
-          },
-          {
-            "concept": {
-              "CONCEPT_CLASS_ID": "Clinical Finding",
               "CONCEPT_CODE": "192108001",
               "CONCEPT_ID": 4102977,
               "CONCEPT_NAME": "Disturbance of anxiety and fearfulness in childhood and adolescence",
@@ -280,7 +265,22 @@
               "CONCEPT_CLASS_ID": "Clinical Finding",
               "CONCEPT_CODE": "80583007",
               "CONCEPT_ID": 4214746,
-              "CONCEPT_NAME": "Severe anxiety",
+              "CONCEPT_NAME": "Severe anxiety (panic)",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "94641000119109",
+              "CONCEPT_ID": 42538968,
+              "CONCEPT_NAME": "Anxiety in pregnancy",
               "DOMAIN_ID": "Condition",
               "INVALID_REASON": "V",
               "INVALID_REASON_CAPTION": "Valid",
@@ -298,7 +298,7 @@
     "CriteriaList": [
       {
         "ConditionOccurrence": {
-          "CodesetId": 0,
+          "CodesetId": 1,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",
@@ -308,7 +308,7 @@
       },
       {
         "Observation": {
-          "CodesetId": 0,
+          "CodesetId": 1,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",

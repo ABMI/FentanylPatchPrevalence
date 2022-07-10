@@ -1,16 +1,31 @@
 {
   "ConceptSets": [
     {
-      "id": 1,
-      "name": "[cervello V2] Personality disorders",
+      "id": 5,
+      "name": "[cervello V2] Bipolar disorders",
       "expression": {
         "items": [
           {
             "concept": {
+              "CONCEPT_CLASS_ID": "Qualifier Value",
+              "CONCEPT_CODE": "260994008",
+              "CONCEPT_ID": 4128935,
+              "CONCEPT_NAME": "Bipolar",
+              "DOMAIN_ID": "Observation",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
               "CONCEPT_CLASS_ID": "Clinical Finding",
-              "CONCEPT_CODE": "33449004",
-              "CONCEPT_ID": 441838,
-              "CONCEPT_NAME": "Personality disorder",
+              "CONCEPT_CODE": "13746004",
+              "CONCEPT_ID": 436665,
+              "CONCEPT_NAME": "Bipolar disorder",
               "DOMAIN_ID": "Condition",
               "INVALID_REASON": "V",
               "INVALID_REASON_CAPTION": "Valid",
@@ -28,7 +43,17 @@
     "CriteriaList": [
       {
         "ConditionOccurrence": {
-          "CodesetId": 1,
+          "CodesetId": 5,
+          "OccurrenceStartDate": {
+            "Value": "2016-01-01",
+            "Extent": "2021-12-31",
+            "Op": "gte"
+          }
+        }
+      },
+      {
+        "Observation": {
+          "CodesetId": 5,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",

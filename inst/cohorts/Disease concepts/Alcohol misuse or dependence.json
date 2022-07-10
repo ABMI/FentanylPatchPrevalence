@@ -1,40 +1,10 @@
 {
   "ConceptSets": [
     {
-      "id": 0,
-      "name": "[cervello] Alcohol misuse or dependence",
+      "id": 1,
+      "name": "[cervello V2] Alcohol misuse or dependence",
       "expression": {
         "items": [
-          {
-            "concept": {
-              "CONCEPT_CLASS_ID": "Clinical Finding",
-              "CONCEPT_CODE": "15167005",
-              "CONCEPT_ID": 433753,
-              "CONCEPT_NAME": "Alcohol abuse",
-              "DOMAIN_ID": "Condition",
-              "INVALID_REASON": "V",
-              "INVALID_REASON_CAPTION": "Valid",
-              "STANDARD_CONCEPT": "S",
-              "STANDARD_CONCEPT_CAPTION": "Standard",
-              "VOCABULARY_ID": "SNOMED"
-            },
-            "includeDescendants": true
-          },
-          {
-            "concept": {
-              "CONCEPT_CLASS_ID": "Clinical Finding",
-              "CONCEPT_CODE": "66590003",
-              "CONCEPT_ID": 435243,
-              "CONCEPT_NAME": "Alcohol dependence",
-              "DOMAIN_ID": "Condition",
-              "INVALID_REASON": "V",
-              "INVALID_REASON_CAPTION": "Valid",
-              "STANDARD_CONCEPT": "S",
-              "STANDARD_CONCEPT_CAPTION": "Standard",
-              "VOCABULARY_ID": "SNOMED"
-            },
-            "includeDescendants": true
-          },
           {
             "concept": {
               "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -130,7 +100,7 @@
               "CONCEPT_CLASS_ID": "Procedure",
               "CONCEPT_CODE": "166251000000100",
               "CONCEPT_ID": 44788279,
-              "CONCEPT_NAME": "Alcohol misuse - enhanced services administration",
+              "CONCEPT_NAME": "Alcohol misuse enhanced services administration",
               "DOMAIN_ID": "Observation",
               "INVALID_REASON": "V",
               "INVALID_REASON_CAPTION": "Valid",
@@ -175,7 +145,7 @@
               "CONCEPT_CLASS_ID": "Clinical Finding",
               "CONCEPT_CODE": "166471000000105",
               "CONCEPT_ID": 44788303,
-              "CONCEPT_NAME": "Alcohol misuse - enhanced service completed",
+              "CONCEPT_NAME": "Alcohol misuse enhanced service completed",
               "DOMAIN_ID": "Observation",
               "INVALID_REASON": "V",
               "INVALID_REASON_CAPTION": "Valid",
@@ -187,11 +157,26 @@
           },
           {
             "concept": {
-              "CONCEPT_CLASS_ID": "Procedure",
-              "CONCEPT_CODE": "386449006",
-              "CONCEPT_ID": 4296409,
-              "CONCEPT_NAME": "Substance use treatment: alcohol withdrawal",
-              "DOMAIN_ID": "Procedure",
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "15167005",
+              "CONCEPT_ID": 433753,
+              "CONCEPT_NAME": "Alcohol abuse",
+              "DOMAIN_ID": "Condition",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "S",
+              "STANDARD_CONCEPT_CAPTION": "Standard",
+              "VOCABULARY_ID": "SNOMED"
+            },
+            "includeDescendants": true
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Finding",
+              "CONCEPT_CODE": "66590003",
+              "CONCEPT_ID": 435243,
+              "CONCEPT_NAME": "Alcohol dependence",
+              "DOMAIN_ID": "Condition",
               "INVALID_REASON": "V",
               "INVALID_REASON_CAPTION": "Valid",
               "STANDARD_CONCEPT": "S",
@@ -208,7 +193,7 @@
     "CriteriaList": [
       {
         "ConditionOccurrence": {
-          "CodesetId": 0,
+          "CodesetId": 1,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",
@@ -218,7 +203,7 @@
       },
       {
         "Observation": {
-          "CodesetId": 0,
+          "CodesetId": 1,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",
@@ -228,7 +213,7 @@
       },
       {
         "ProcedureOccurrence": {
-          "CodesetId": 0,
+          "CodesetId": 1,
           "OccurrenceStartDate": {
             "Value": "2016-01-01",
             "Extent": "2021-12-31",
