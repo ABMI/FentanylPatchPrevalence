@@ -1,4 +1,4 @@
-# This file is part of CERVELLOPrevalence
+# This file is part of FentanylPatchPrevalence
 
 createAllCohorts <- function(connectionDetails,
                              cdmDatabaseSchema,
@@ -59,8 +59,8 @@ createAllCohorts <- function(connectionDetails,
                     AGE_YR = lubridate::as.period(lubridate::interval(DOB, as.Date(paste0(start_year, '-07-01'))))$year,
                     AGE_MTH = lubridate::as.period(lubridate::interval(DOB, as.Date(paste0(start_year, '-07-01'))))$year) %>%
       dplyr::arrange(SUBJECT_ID, COHORT_START_DATE)%>%
-      dplyr::mutate(AGE_YR_GROUP = cut(AGE_YR, breaks = c(0, 17, 24, 44, 64, 74, 84, 150), include.lowest = TRUE),
-                    AGE_MTH_GROUP = cut(AGE_MTH, breaks = c(0, 17, 24, 44, 64, 74, 84, 150), include.lowest = TRUE))
+      dplyr::mutate(AGE_YR_GROUP = cut(AGE_YR, breaks = c(0, 17, 24, 34, 44, 54, 64, 150), include.lowest = TRUE),
+                    AGE_MTH_GROUP = cut(AGE_MTH, breaks = c(0, 17, 24, 34, 44, 54, 64, 150), include.lowest = TRUE))
     saveRDS(data_disease,  file.path(tmpDir, paste0("diseaseCohort_", i, ".RDS")))
   }
 
@@ -84,8 +84,8 @@ createAllCohorts <- function(connectionDetails,
                     AGE_YR = lubridate::as.period(lubridate::interval(DOB, as.Date(paste0(start_year, '-07-01'))))$year,
                     AGE_MTH = lubridate::as.period(lubridate::interval(DOB, as.Date(paste0(start_year, '-07-01'))))$year) %>%
       dplyr::arrange(SUBJECT_ID, COHORT_START_DATE)%>%
-      dplyr::mutate(AGE_YR_GROUP = cut(AGE_YR, breaks = c(0, 17, 24, 44, 64, 74, 84, 150), include.lowest = TRUE),
-                    AGE_MTH_GROUP = cut(AGE_MTH, breaks = c(0, 17, 24, 44, 64, 74, 84, 150), include.lowest = TRUE))
+      dplyr::mutate(AGE_YR_GROUP = cut(AGE_YR, breaks = c(0, 17, 24, 34, 44, 54, 64, 150), include.lowest = TRUE),
+                    AGE_MTH_GROUP = cut(AGE_MTH, breaks = c(0, 17, 24, 34, 44, 54, 64, 150), include.lowest = TRUE))
     saveRDS(data_drug,  file.path(tmpDir, paste0("drugCohort_", i, ".RDS")))
   }
 

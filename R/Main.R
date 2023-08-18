@@ -1,10 +1,10 @@
-# This file is part of CervelloPrevalence
+# This file is part of FentanylPatchPrevalence
 
 
 #' Execute the Study
 #'
 #' @details
-#' This function executes the CervelloPrevalence Study.
+#' This function executes the FentanylPatchPrevalence Study.
 #'
 #' The \code{createCohorts}, \code{createAllCohorts}, \code{computePrevalence} arguments
 #' are intended to be used to run parts of the full study at a time, but none of the parts are considered to be optional.
@@ -60,10 +60,10 @@ execute <- function(connectionDetails,
                     databaseName = "Unknown",
                     createCohorts = TRUE,
                     runPrevalence = TRUE,
-                    yearStartDate = as.Date("2016-01-01"),
-                    yearEndDate = as.Date("2021-07-01"),
-                    monthStartDate = as.Date("2016-01-01"),
-                    monthEndDate = as.Date("2021-07-01"),
+                    yearStartDate = as.Date("2012-01-01"),
+                    yearEndDate = as.Date("2021-12-31"),
+                    monthStartDate = as.Date("2012-01-01"),
+                    monthEndDate = as.Date("2021-12-31"),
                     maxCores = 4,
                     minCellCount = 0) {
 

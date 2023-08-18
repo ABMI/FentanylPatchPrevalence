@@ -1,19 +1,20 @@
 atlasId,atlasName,cohortId,name,cohortType
-1778278,[HKU cervello V2] Depressive Disorders,1778278,Depressive disorders,Disease
-1777957,[HKU cervello V2] Anxiety Disorders,1777957,Anxiety disorders,Disease
-1777958,[HKU cervello V2] Bipolar Disorders,1777958,Bipolar disorders,Disease
-1777959,[HKU cervello V2] Non-affective Psychoses,1777959,Psychoses,Disease
-1777967,[HKU cervello V2] Neurodevelopmental disorders,1777967,Neurodevelopmental disorders,Disease
-1777975,[HKU cervello V2] Personality Disorders,1777975,Personality disorders,Disease
-1777976,[HKU cervello V2] Alcohol misuse or dependence,1777976,Alcohol misuse or dependence,Disease
-1777977,[HKU cervello V2] Substance misuse or dependence,1777977,Substance misuse or dependence,Disease
-1777978,[HKU cervello V2] Dementia,1777978,Dementia,Disease
-1779791,[HKU cervello V2] ADHD,1779791,ADHD,Disease
-1775299,[HKU cervello V2] OC Antipsychotics,1775299,Antipsychotics,Drug
-1775358,[HKU cervello V2] OC Anxiolytics,1775358,Anxiolytics,Drug
-1775359,[HKU cervello V2] OC Hypnotics,1775359,Hypnotics,Drug
-1775360,[HKU cervello V2] OC Antidepressants,1775360,Antidepressants,Drug
-1775361,[HKU cervello V2] OC Antiepileptics,1775361,Antiepileptics,Drug
-1775362,[HKU cervello V2] OC Lithium,1775362,Lithium,Drug
-1775363,[HKU cervello V2] OC ADHD drugs,1775363,ADHD drugs,Drug
-1775364,[HKU cervello V2] OC Anti-dementia,1775364,Antidementia,Drug
+1289,[dylee] depression,1289,depression,Disease
+1292,[dylee] bipolar disorder,1292,bipolar disorder,Disease
+1293,[dylee] schizophrenia,1293,schizophrenia,Disease
+1294,[dylee] anxiety disorder,1294,anxiety disorder,Disease
+1295,[dylee] neurodevelopmental disorder,1295,neurodevelopmental disorder,Disease
+1296,[dylee] alcohol use disorder,1296,alcohol use disorder,Disease
+1297,[dylee] substance use disorder,1297,substance use disorder,Disease
+1319,[dylee] somatoform disorder,1319,somatoform disorder,Disease
+1301,[dylee] total indications,1301,total indications,Disease
+1304,[dylee] oa indications,1304,oa indications,Disease
+1306,[dylee] neuropathy indications,1306,neuropathy indications,Disease
+1308,[dylee] pancreas indications,1308,pancreas indications,Disease
+1239,[dylee] fentanyl,1239,fentanyl,Drug
+1284,[dylee] fentanyl_1,1284,fentanyl_1,Drug
+1285,[dylee] fentanyl_2,1285,fentanyl_2,Drug
+1286,[dylee] fentanyl_3,1286,fentanyl_3,Drug
+1287,[dylee] fentanyl_4,1287,fentanyl_4,Drug
+1288,[dylee] fentanyl_5,1288,fentanyl_5,Drug
+1346,[dylee] fentanyl_6,1346,fentanyl_5,Drug

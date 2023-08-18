@@ -1,64 +1,85 @@
 diseaseId,diseaseCohort,drugId,drugCohort
-1778278,Depressive disorders,1775360,Antidepressants
-1778278,Depressive disorders,1775361,Antiepileptics
-1778278,Depressive disorders,1775299,Antipsychotics
-1778278,Depressive disorders,1775358,Anxiolytics
-1778278,Depressive disorders,1775359,Hypnotics
-1778278,Depressive disorders,1775362,Lithium
-1777957,Anxiety disorders,1775360,Antidepressants
-1777957,Anxiety disorders,1775361,Antiepileptics
-1777957,Anxiety disorders,1775299,Antipsychotics
-1777957,Anxiety disorders,1775358,Anxiolytics
-1777957,Anxiety disorders,1775359,Hypnotics
-1777957,Anxiety disorders,1775362,Lithium
-1777958,Bipolar disorders,1775360,Antidepressants
-1777958,Bipolar disorders,1775361,Antiepileptics
-1777958,Bipolar disorders,1775299,Antipsychotics
-1777958,Bipolar disorders,1775358,Anxiolytics
-1777958,Bipolar disorders,1775359,Hypnotics
-1777958,Bipolar disorders,1775362,Lithium
-1777959,Psychoses,1775360,Antidepressants
-1777959,Psychoses,1775361,Antiepileptics
-1777959,Psychoses,1775299,Antipsychotics
-1777959,Psychoses,1775358,Anxiolytics
-1777959,Psychoses,1775359,Hypnotics
-1777959,Psychoses,1775362,Lithium
-1777975,Personality disorders,1775360,Antidepressants
-1777975,Personality disorders,1775361,Antiepileptics
-1777975,Personality disorders,1775299,Antipsychotics
-1777975,Personality disorders,1775358,Anxiolytics
-1777975,Personality disorders,1775359,Hypnotics
-1777975,Personality disorders,1775362,Lithium
-1777976,Alcohol misuse or dependence,1775360,Antidepressants
-1777976,Alcohol misuse or dependence,1775361,Antiepileptics
-1777976,Alcohol misuse or dependence,1775299,Antipsychotics
-1777976,Alcohol misuse or dependence,1775358,Anxiolytics
-1777976,Alcohol misuse or dependence,1775359,Hypnotics
-1777976,Alcohol misuse or dependence,1775362,Lithium
-1777977,Substance misuse or dependence,1775360,Antidepressants
-1777977,Substance misuse or dependence,1775361,Antiepileptics
-1777977,Substance misuse or dependence,1775299,Antipsychotics
-1777977,Substance misuse or dependence,1775358,Anxiolytics
-1777977,Substance misuse or dependence,1775359,Hypnotics
-1777977,Substance misuse or dependence,1775362,Lithium
-1777978,Dementia,1775364,Antidementia
-1777978,Dementia,1775360,Antidepressants
-1777978,Dementia,1775361,Antiepileptics
-1777978,Dementia,1775299,Antipsychotics
-1777978,Dementia,1775358,Anxiolytics
-1777978,Dementia,1775359,Hypnotics
-1777978,Dementia,1775362,Lithium
-1779791,ADHD,1775363,ADHD drugs
-1779791,ADHD,1775360,Antidepressants
-1779791,ADHD,1775361,Antiepileptics
-1779791,ADHD,1775299,Antipsychotics
-1779791,ADHD,1775358,Anxiolytics
-1779791,ADHD,1775359,Hypnotics
-1779791,ADHD,1775362,Lithium
-1777967,Neurodevelopmental disorders,1775363,ADHD drugs
-1777967,Neurodevelopmental disorders,1775360,Antidepressants
-1777967,Neurodevelopmental disorders,1775361,Antiepileptics
-1777967,Neurodevelopmental disorders,1775299,Antipsychotics
-1777967,Neurodevelopmental disorders,1775358,Anxiolytics
-1777967,Neurodevelopmental disorders,1775359,Hypnotics
-1777967,Neurodevelopmental disorders,1775362,Lithium
+1289,depression,1239,fentanyl
+1289,depression,1284,fentanyl_1
+1289,depression,1285,fentanyl_2
+1289,depression,1286,fentanyl_3
+1289,depression,1287,fentanyl_4
+1289,depression,1288,fentanyl_5
+1289,depression,1346,fentanyl_6
+1292,bipolar disorder,1239,fentanyl
+1292,bipolar disorder,1284,fentanyl_1
+1292,bipolar disorder,1285,fentanyl_2
+1292,bipolar disorder,1286,fentanyl_3
+1292,bipolar disorder,1287,fentanyl_4
+1292,bipolar disorder,1288,fentanyl_5
+1292,bipolar disorder,1346,fentanyl_6
+1293,schizophrenia,1239,fentanyl
+1293,schizophrenia,1284,fentanyl_1
+1293,schizophrenia,1285,fentanyl_2
+1293,schizophrenia,1286,fentanyl_3
+1293,schizophrenia,1287,fentanyl_4
+1293,schizophrenia,1288,fentanyl_5
+1293,schizophrenia,1346,fentanyl_6
+1294,anxiety disorder,1239,fentanyl
+1294,anxiety disorder,1284,fentanyl_1
+1294,anxiety disorder,1285,fentanyl_2
+1294,anxiety disorder,1286,fentanyl_3
+1294,anxiety disorder,1287,fentanyl_4
+1294,anxiety disorder,1288,fentanyl_5
+1294,anxiety disorder,1346,fentanyl_6
+1295,neurodevelopmental disorder,1239,fentanyl
+1295,neurodevelopmental disorder,1284,fentanyl_1
+1295,neurodevelopmental disorder,1285,fentanyl_2
+1295,neurodevelopmental disorder,1286,fentanyl_3
+1295,neurodevelopmental disorder,1287,fentanyl_4
+1295,neurodevelopmental disorder,1288,fentanyl_5
+1295,neurodevelopmental disorder,1346,fentanyl_6
+1296,alcohol use disorder,1239,fentanyl
+1296,alcohol use disorder,1284,fentanyl_1
+1296,alcohol use disorder,1285,fentanyl_2
+1296,alcohol use disorder,1286,fentanyl_3
+1296,alcohol use disorder,1287,fentanyl_4
+1296,alcohol use disorder,1288,fentanyl_5
+1296,alcohol use disorder,1346,fentanyl_6
+1297,substance use disorder,1239,fentanyl
+1297,substance use disorder,1284,fentanyl_1
+1297,substance use disorder,1285,fentanyl_2
+1297,substance use disorder,1286,fentanyl_3
+1297,substance use disorder,1287,fentanyl_4
+1297,substance use disorder,1288,fentanyl_5
+1297,substance use disorder,1346,fentanyl_6
+1319,somatoform disorder,1239,fentanyl
+1319,somatoform disorder,1284,fentanyl_1
+1319,somatoform disorder,1285,fentanyl_2
+1319,somatoform disorder,1286,fentanyl_3
+1319,somatoform disorder,1287,fentanyl_4
+1319,somatoform disorder,1288,fentanyl_5
+1319,somatoform disorder,1346,fentanyl_6
+1301,total indications,1239,fentanyl
+1301,total indications,1284,fentanyl_1
+1301,total indications,1285,fentanyl_2
+1301,total indications,1286,fentanyl_3
+1301,total indications,1287,fentanyl_4
+1301,total indications,1288,fentanyl_5
+1301,total indications,1346,fentanyl_6
+1304,oa indications,1239,fentanyl
+1304,oa indications,1284,fentanyl_1
+1304,oa indications,1285,fentanyl_2
+1304,oa indications,1286,fentanyl_3
+1304,oa indications,1287,fentanyl_4
+1304,oa indications,1288,fentanyl_5
+1304,oa indications,1346,fentanyl_6
+1306,neuropathy indications,1239,fentanyl
+1306,neuropathy indications,1284,fentanyl_1
+1306,neuropathy indications,1285,fentanyl_2
+1306,neuropathy indications,1286,fentanyl_3
+1306,neuropathy indications,1287,fentanyl_4
+1306,neuropathy indications,1288,fentanyl_5
+1306,neuropathy indications,1346,fentanyl_6
+1308,pancreas indications,1239,fentanyl
+1308,pancreas indications,1284,fentanyl_1
+1308,pancreas indications,1285,fentanyl_2
+1308,pancreas indications,1286,fentanyl_3
+1308,pancreas indications,1287,fentanyl_4
+1308,pancreas indications,1288,fentanyl_5
+1308,pancreas indications,1346,fentanyl_6
