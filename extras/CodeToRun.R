@@ -1,3 +1,6 @@
+#before build, please install plotly. please check the file path
+install.packages('./plotly_4.10.0.tar.gz', repos = NULL, type="source")
+
 library(FentanylPatchPrevalence)
 
 # Maximum number of cores to be used:

@@ -384,7 +384,7 @@ computePrevalence <- function(yearStartDate,
   drug_fentanyl_dose_1 <- data_fentanyl_dose_1%>%
     dplyr::mutate(calDate = start_year)%>%
     dplyr::group_by(calDate, AGE_YR_GROUP, GENDER) %>%
-    dplyr::summarise(w1 = dplyr::n_distinct(row_number()), .groups = 'drop')
+    dplyr::summarise(w1 = dplyr::n_distinct(dplyr::row_number()), .groups = 'drop')
 ##
   data_fentanyl_dose_2 <- readRDS(file.path(tmpDir, paste0("drugCohort_", "1285", ".RDS"))) %>%
     dplyr::filter(start_yearMth>=monthStartDate & start_yearMth<=monthEndDate)
@@ -392,7 +392,7 @@ computePrevalence <- function(yearStartDate,
   drug_fentanyl_dose_2 <- data_fentanyl_dose_2%>%
     dplyr::mutate(calDate = start_year)%>%
     dplyr::group_by(calDate, AGE_YR_GROUP, GENDER) %>%
-    dplyr::summarise(w2 = dplyr::n_distinct(row_number()), .groups = 'drop')
+    dplyr::summarise(w2 = dplyr::n_distinct(dplyr::row_number()), .groups = 'drop')
 ##
   data_fentanyl_dose_3 <- readRDS(file.path(tmpDir, paste0("drugCohort_", "1286", ".RDS"))) %>%
     dplyr::filter(start_yearMth>=monthStartDate & start_yearMth<=monthEndDate)
@@ -400,7 +400,7 @@ computePrevalence <- function(yearStartDate,
   drug_fentanyl_dose_3 <- data_fentanyl_dose_3%>%
     dplyr::mutate(calDate = start_year)%>%
     dplyr::group_by(calDate, AGE_YR_GROUP, GENDER) %>%
-    dplyr::summarise(w3 = dplyr::n_distinct(row_number()), .groups = 'drop')
+    dplyr::summarise(w3 = dplyr::n_distinct(dplyr::row_number()), .groups = 'drop')
 ##
   data_fentanyl_dose_4 <- readRDS(file.path(tmpDir, paste0("drugCohort_", "1287", ".RDS"))) %>%
     dplyr::filter(start_yearMth>=monthStartDate & start_yearMth<=monthEndDate)
@@ -408,7 +408,7 @@ computePrevalence <- function(yearStartDate,
   drug_fentanyl_dose_4 <- data_fentanyl_dose_4%>%
     dplyr::mutate(calDate = start_year)%>%
     dplyr::group_by(calDate, AGE_YR_GROUP, GENDER) %>%
-    dplyr::summarise(w4 = dplyr::n_distinct(row_number()), .groups = 'drop')
+    dplyr::summarise(w4 = dplyr::n_distinct(dplyr::row_number()), .groups = 'drop')
 ##
   data_fentanyl_dose_5 <- readRDS(file.path(tmpDir, paste0("drugCohort_", "1288", ".RDS"))) %>%
     dplyr::filter(start_yearMth>=monthStartDate & start_yearMth<=monthEndDate)
@@ -416,7 +416,7 @@ computePrevalence <- function(yearStartDate,
   drug_fentanyl_dose_5 <- data_fentanyl_dose_5%>%
     dplyr::mutate(calDate = start_year)%>%
     dplyr::group_by(calDate, AGE_YR_GROUP, GENDER) %>%
-    dplyr::summarise(w5 = dplyr::n_distinct(row_number()), .groups = 'drop')
+    dplyr::summarise(w5 = dplyr::n_distinct(dplyr::row_number()), .groups = 'drop')
 ##
   data_fentanyl_dose_6 <- readRDS(file.path(tmpDir, paste0("drugCohort_", "1346", ".RDS"))) %>%
     dplyr::filter(start_yearMth>=monthStartDate & start_yearMth<=monthEndDate)
@@ -424,7 +424,7 @@ computePrevalence <- function(yearStartDate,
   drug_fentanyl_dose_6 <- data_fentanyl_dose_5%>%
     dplyr::mutate(calDate = start_year)%>%
     dplyr::group_by(calDate, AGE_YR_GROUP, GENDER) %>%
-    dplyr::summarise(w6 = dplyr::n_distinct(row_number()), .groups = 'drop')
+    dplyr::summarise(w6 = dplyr::n_distinct(dplyr::row_number()), .groups = 'drop')
 ##
 
   dose_cal <- drug_fentanyl_dose %>%
