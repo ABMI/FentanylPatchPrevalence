@@ -5,8 +5,8 @@ FentanylPatchPrevalence
 - Analytics use case(s): **Characterization**
 - Study type: **Clinical Application**
 - Tags: **OHDSI, psychiatryWG, mental-health**
-- Study lead: **Dong Yun Lee, PhD, The Ajou University** // 
-              **Chungsoo Kim, MSc, The Ajou University** 
+- Study lead: **Dong Yun Lee, MD, The Ajou University** // 
+              **Chungsoo Kim, PharmD, The Ajou University** 
 - Study lead forums tag:  **[Dong Yun Lee](https://github.com/ABMI)**
 - Study start date: **1st August, 2023**
 - Study end date: **-**
